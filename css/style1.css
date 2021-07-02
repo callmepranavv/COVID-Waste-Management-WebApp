@@ -1,0 +1,116 @@
+/*CSS style #273c75 sheet*/
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background-color:none ;
+	padding:5px;
+	border-radius:10px;
+	border:none;
+	position: absolute;
+	top:250px;
+	left:100px;
+}
+#login{
+	color:whitesmoke;
+	font-size: 60px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	position: absolute;
+	top:160px;
+	left:750px;
+	
+}
+
+#p{
+	position: absolute;
+	 top:13px;
+	 left:370px;
+	 
+ }
+
+
+.myform{
+	width:450px;
+	padding-top: 15px;
+	margin: auto;
+	font-size: large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	color: white;
+	}
+
+
+
+
+::placeholder{
+	color:white;
+	opacity: 1;
+}
+
+
+
+.inputvalues{
+	margin-top: 10px auto;
+	background-color:rgba(0,0,0,0.0);
+	width:420px;
+	color:white;
+	font-size: medium;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	margin:10px auto;
+	padding:16px;
+	border-style: double;
+	
+}
+
+.inputvalues:hover,
+.inputvalues:focus focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.20em);
+}
+
+
+#login_btn{
+	margin-top:20px;
+	overflow: hidden;
+	background-color:rgba(0,0,0,0.0);
+	padding:15px;
+	width:50%;
+	text-align:center;
+	font-size:large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	
+}
+
+#login_btn:hover,
+#login_btn:focus focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+  }
+
+
+  #dark{
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+	width:25px;
+	height:25px;
+	position: absolute;
+	top:218px;
+	left:6px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+}
+
+
+.dark-mode {
+	background-color: black;
+	color: white;
+  }
+
