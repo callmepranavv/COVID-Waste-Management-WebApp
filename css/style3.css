@@ -1,0 +1,226 @@
+/*CSS style #273c75 sheet*/
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+#main--wrapper{
+	background-color:rgba(0,0,0,0.0);
+	width:500px;
+	margin: 0 auto;
+	padding:10px;
+	margin-top: 5px;
+	
+	position: absolute;
+	 top:320px;
+	 left:50px;
+	opacity: 1;
+    transition: opacity .5s ease-in-out;
+}
+
+#main--wrapper:hover {
+    opacity: 1;
+  }
+
+
+#text{
+	color: #EA2027;
+	font-size: 60px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-variant: small-caps;
+	font-weight: lighter;
+	position: absolute;
+	top:225px;
+	left:90px;
+}
+
+
+
+
+.radiobtns{
+    
+    height: 18px;
+    width: 18px;
+	margin:10px;
+	margin-top:15px;
+	margin-bottom: 20px;
+	font-family:  'Courier New', Courier, monospace;
+	}
+
+.myform{
+	width:500px;
+    padding-top: 20px;
+    margin-top: 10px;
+	margin: auto;
+	font-size: 25px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: normal;
+    font-weight: bold;
+	color: #576574;
+	}
+    
+
+
+
+.radiobtns{
+		margin: px;
+		margin-top:15px;
+		margin-bottom: 20px;
+		font-size: xx-large;
+		font-family:  'Courier New', Courier, monospace;
+		}
+
+.qualification{
+    background-color:rgba(0,0,0,0.0);
+    color: #3742fa;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-style: solid;
+    border-color: #182C61;
+    border-width: 0.5px;
+	padding:15px;
+	widows: 15%;
+	font-size: medium;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	
+}
+
+::placeholder{
+	color:#3742fa;
+	opacity: .85;
+    font-size: 25px;
+    font-weight: 100px;
+	
+}
+
+
+
+.inputvalues{
+	margin-top: 10px auto;
+	background-color:rgba(0,0,0,0.0);
+	width:600px;
+	color:#3742fa;
+	font-size: 25px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: bold;
+	margin:10px auto;
+	padding:15px;
+    border-style: solid;
+    border-width: 0.5px;
+	border-color: #182C61;
+}
+
+
+.inputvalues:hover,
+.inputvalues:focus focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.20em);
+}
+
+
+
+#signup_btn{
+    background-color: #3498db;
+	margin-top:5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding:15px;
+	color:white;
+	width:50%;
+	position: absolute;
+	bottom:10px;
+	left:361px;
+	text-align:center;
+	font-size:larger;
+    font-weight:lighter;
+    border-style: solid;
+    border-width: 0.5px;
+	border-color: #182C61;
+}
+#signup_btn:hover,
+#signup_btn:focus focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+}
+
+#back_btn{
+    background-color: #3498db;
+    color: white;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding:15px;
+	width:50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align:center;
+	font-size:larger;
+    font-weight:lighter;
+    border-style: solid;
+    border-width: 0.5px;
+	border-color: #182C61;
+}
+#back_btn:hover,
+#back_btn:focus focus {
+	box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+	transform: translateY(-0.25em);
+}
+
+
+#d1{
+	width:100%;
+	height:200px;
+	background-color: rgba(0,0,0,0.0);
+	opacity: .80;
+    transition: opacity .5s ease-in-out;
+}
+
+#d1:hover {
+    opacity: 1;
+  }
+
+#d2{
+	width:100%;
+	height:8px;
+	background-color:#3c40c6 ;
+
+}
+
+#d3{
+	width:1505px;
+	height:100px;
+	background-color:#3B3B98;
+	position: absolute;
+	top:1400px;
+	right:7px;
+	left:7px;
+}
+
+#p{
+   position: absolute;
+	top:13px;
+	left:370px;
+	
+}
+
+#p1{
+	position: absolute;
+	top:7px;
+	right:10px;
+
+}
+
+#dark{
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+	width:25px;
+	height:25px;
+	position: absolute;
+	top:210px;
+	left:1px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-variant: small-caps;
+}
+
+.dark-mode {
+	background-color: #161625;
+	color: white;
+  }
+
